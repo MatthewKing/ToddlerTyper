@@ -15,6 +15,7 @@ internal sealed partial class ToddlerTyperForm : Form
         _hotkeys.SetHandler("Ctrl+Down", () => UpdateFontSize(-FontSizeIncrement, FontSizeMin, FontSizeMax));
 
         InitializeComponent();
+        Icon = Icon.ExtractAssociatedIcon(Application.ExecutablePath);
     }
 
     private void ToddlerTyperForm_Load(object sender, EventArgs e)
