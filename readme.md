@@ -20,7 +20,7 @@ If you want to control Toddler Typer, the following hotkeys are available:
 
 * `ALT + F4` to exit Toddler Typer.
 * `CTRL + UP ARROW` to increase the font size.
-* `ATRL + DOWN ARROW` to decrease the font size.
+* `CTRL + DOWN ARROW` to decrease the font size.
 
 ## Download
 
