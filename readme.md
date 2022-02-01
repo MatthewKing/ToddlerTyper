@@ -12,6 +12,14 @@ Toddler Typer protects your computer in the following ways:
 * Doesn't have an "exit" button, so your toddler can't accidentally close the application. If you want to close it, just use the standard `ALT+F4` hotkey.
 * If you have a multi-monitor system, Toddler Typer will launch simultaneously on every screen.
 
+## Download
+
+You can download ToddlerType from [here](https://downloads.mking.net/ToddlerTyper.exe).
+
+## System Requirements
+
+* Windows 10, 64-bit
+
 ## Credits
 
 * Programming by [Matthew King](https://github.com/MatthewKing)
