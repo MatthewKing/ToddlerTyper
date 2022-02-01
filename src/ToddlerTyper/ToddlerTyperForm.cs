@@ -17,6 +17,11 @@ internal sealed partial class ToddlerTyperForm : Form
         InitializeComponent();
     }
 
+    private void ToddlerTyperForm_Load(object sender, EventArgs e)
+    {
+        uxInfo.Text = $"Toddler Typer v{Application.ProductVersion} - Press ALT+F4 to exit";
+    }
+
     protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
     {
         if (_hotkeys.Handle(keyData))
