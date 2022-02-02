@@ -3,4 +3,8 @@
 bin/
 obj/
 artifacts/
+AppPackages/
+BundleArtifacts/
 *.csproj.user
+*.wapproj.user
+
