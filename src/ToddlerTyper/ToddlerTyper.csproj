@@ -13,4 +13,10 @@
     <ApplicationIcon>ToddlerTyper.ico</ApplicationIcon>
   </PropertyGroup>
 
+  <ItemGroup>
+    <EmbeddedResource Include="../../assets/logo2.png">
+      <Link>Logo.png</Link>
+    </EmbeddedResource>
+  </ItemGroup>
+
 </Project>
