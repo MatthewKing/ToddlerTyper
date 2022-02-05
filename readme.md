@@ -24,9 +24,9 @@ If you want to control Toddler Typer, the following hotkeys are available:
 
 ## Download
 
-You can download Toddler Typer from [here](https://downloads.mking.net/ToddlerTyper.exe).
+You can get the official release of [Toddler Typer on the Microsoft Store](https://www.microsoft.com/en-au/p/toddler-typer/9pb5j8zb1fdh).
 
-Because I don't want to spend hundreds of dollars for an [Authenticode certificate](https://docs.microsoft.com/en-us/windows-hardware/drivers/install/authenticode), you may see a pop-up from [Microsoft SmartScreen Filter](https://support.microsoft.com/en-us/microsoft-edge/what-is-smartscreen-and-how-can-it-help-protect-me-1c9a874a-6826-be5e-45b1-67fa445a74c8) when you download this file. It may warn you that the software is "unsafe", but all this actually means is that not enough people have downloaded the file yet for Microsoft to consider it to be "safe". I promise that there's no malware or viruses (and you can inspect the source code yourself to confirm this). I'll eventually upload Toddler Typer to the Microsoft Store to avoid all of these issues.
+Alternatively, you can download the raw executable from [here](https://downloads.mking.net/ToddlerTyper.exe). This version is not signed with an [Authenticode certificate](https://docs.microsoft.com/en-us/windows-hardware/drivers/install/authenticode) (because I don't have hundreds of dollars spare to spend on a certificate for Toddler Typer), so you may see a pop-up from [Microsoft SmartScreen Filter](https://support.microsoft.com/en-us/microsoft-edge/what-is-smartscreen-and-how-can-it-help-protect-me-1c9a874a-6826-be5e-45b1-67fa445a74c8) when you download it. If you're a tech pro you'll know what to do - but if not, I recommend just grabbing it from the [Microsoft Store](https://www.microsoft.com/en-au/p/toddler-typer/9pb5j8zb1fdh) instead.
 
 ## System Requirements
 
