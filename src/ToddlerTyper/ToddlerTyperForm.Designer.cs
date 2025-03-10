@@ -28,51 +28,50 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.uxTextBox = new System.Windows.Forms.RichTextBox();
-            this.uxInfo = new System.Windows.Forms.Label();
-            this.SuspendLayout();
+            uxTextBox = new RichTextBox();
+            uxInfo = new Label();
+            SuspendLayout();
             // 
             // uxTextBox
             // 
-            this.uxTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.uxTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.uxTextBox.Font = new System.Drawing.Font("Calibri", 128.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.uxTextBox.Location = new System.Drawing.Point(12, 12);
-            this.uxTextBox.Name = "uxTextBox";
-            this.uxTextBox.Size = new System.Drawing.Size(776, 411);
-            this.uxTextBox.TabIndex = 0;
-            this.uxTextBox.Text = "";
+            uxTextBox.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            uxTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(58)))), ((int)(((byte)(64)))));
+            uxTextBox.ForeColor = System.Drawing.Color.White;
+            uxTextBox.BorderStyle = BorderStyle.None;
+            uxTextBox.Font = new Font("Calibri", 128.25F);
+            uxTextBox.Location = new Point(12, 12);
+            uxTextBox.Name = "uxTextBox";
+            uxTextBox.Size = new Size(776, 411);
+            uxTextBox.TabIndex = 0;
+            uxTextBox.Text = "";
             // 
             // uxInfo
             // 
-            this.uxInfo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.uxInfo.AutoSize = true;
-            this.uxInfo.ForeColor = System.Drawing.Color.DarkGray;
-            this.uxInfo.Location = new System.Drawing.Point(12, 426);
-            this.uxInfo.Name = "uxInfo";
-            this.uxInfo.Size = new System.Drawing.Size(36, 15);
-            this.uxInfo.TabIndex = 1;
-            this.uxInfo.Text = "{info}";
+            uxInfo.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            uxInfo.AutoSize = true;
+            uxInfo.ForeColor = Color.DarkGray;
+            uxInfo.Location = new Point(12, 426);
+            uxInfo.Name = "uxInfo";
+            uxInfo.Size = new Size(36, 15);
+            uxInfo.TabIndex = 1;
+            uxInfo.Text = "{info}";
             // 
             // ToddlerTyperForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.uxInfo);
-            this.Controls.Add(this.uxTextBox);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "ToddlerTyperForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            this.Text = "Toddler Typer";
-            this.TopMost = true;
-            this.Load += new System.EventHandler(this.ToddlerTyperForm_Load);
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(54, 58, 64);
+            ClientSize = new Size(800, 450);
+            Controls.Add(uxInfo);
+            Controls.Add(uxTextBox);
+            FormBorderStyle = FormBorderStyle.None;
+            Name = "ToddlerTyperForm";
+            StartPosition = FormStartPosition.Manual;
+            Text = "Toddler Typer";
+            TopMost = true;
+            Load += ToddlerTyperForm_Load;
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
