@@ -20,7 +20,7 @@ internal sealed partial class ToddlerTyperForm : Form
 
     private void ToddlerTyperForm_Load(object sender, EventArgs e)
     {
-        uxInfo.Text = $"Toddler Typer v{Application.ProductVersion} - Press ALT+F4 to exit";
+        uxInfo.Text = $"Toddler Typer v{GetVersionString()} / ALT + F4 to exit / CTRL + UP for larger text / CTRL + DOWN for smaller text";
     }
 
     protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
@@ -41,5 +41,17 @@ internal sealed partial class ToddlerTyperForm : Form
             using var font = new Font(uxTextBox.Font.FontFamily, newSize);
             uxTextBox.Font = font;
         }
+    }
+
+    private static string GetVersionString()
+    {
+        var version = Application.ProductVersion;
+        var index = version.IndexOf('+');
+        if (index != -1)
+        {
+            version = version.Substring(0, index);
+        }
+
+        return version;
     }
 }
