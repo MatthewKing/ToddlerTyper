@@ -35,6 +35,9 @@ internal sealed class ToddlerTyperApplicationContext : ApplicationContext
 
     private void LaunchToddlerTyperForms()
     {
+        Taskbar.Hide();
+        StartMenuKey.Disable();
+
         foreach (var screen in Screen.AllScreens)
         {
             var form = new ToddlerTyperForm();
@@ -50,6 +53,9 @@ internal sealed class ToddlerTyperApplicationContext : ApplicationContext
 
     protected override void Dispose(bool disposing)
     {
+        Taskbar.Show();
+        StartMenuKey.Enable();
+
         if (disposing)
         {
             foreach (var form in _forms)
