@@ -9,7 +9,7 @@
   <Identity
     Name="39433MatthewKing.ToddlerTyper"
     Publisher="CN=F564AA7B-92C6-4B10-A7D9-20BD1205BC8C"
-    Version="1.0.0.0" />
+    Version="1.2.0.0" />
 
   <Properties>
     <DisplayName>Toddler Typer</DisplayName>
